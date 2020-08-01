@@ -4242,11 +4242,11 @@ function create_fragment(ctx) {
   /*$$scope*/
   ctx[9], null);
   var aside_levels = [{
-    class: aside_class_value = " mdc-drawer " +
+    class: aside_class_value = "\n    mdc-drawer\n    " +
     /*className*/
-    ctx[1] + "\n  " + (
+    ctx[1] + "\n    " + (
     /*variant*/
-    ctx[2] === "dismissible" ? "mdc-drawer--dismissible" : "") + "\n  " + (
+    ctx[2] === "dismissible" ? "mdc-drawer--dismissible" : "") + "\n    " + (
     /*variant*/
     ctx[2] === "modal" ? "mdc-drawer--modal" : "") + "\n  "
   }, exclude(
@@ -4275,7 +4275,7 @@ function create_fragment(ctx) {
     },
     h: function hydrate() {
       set_attributes(aside, aside_data);
-      add_location(aside, file, 70, 0, 1723);
+      add_location(aside, file, 0, 0, 0);
     },
     m: function mount(target, anchor) {
       insert_dev(target, aside, anchor);
@@ -4318,11 +4318,11 @@ function create_fragment(ctx) {
 
       set_attributes(aside, aside_data = get_spread_update(aside_levels, [(!current || dirty &
       /*className, variant*/
-      6 && aside_class_value !== (aside_class_value = " mdc-drawer " +
+      6 && aside_class_value !== (aside_class_value = "\n    mdc-drawer\n    " +
       /*className*/
-      ctx[1] + "\n  " + (
+      ctx[1] + "\n    " + (
       /*variant*/
-      ctx[2] === "dismissible" ? "mdc-drawer--dismissible" : "") + "\n  " + (
+      ctx[2] === "dismissible" ? "mdc-drawer--dismissible" : "") + "\n    " + (
       /*variant*/
       ctx[2] === "modal" ? "mdc-drawer--modal" : "") + "\n  ")) && {
         class: aside_class_value
@@ -10441,17 +10441,17 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return import('./index.0637ab28.js');
+    return import('./index.adfd9426.js');
   },
   css: []
 }, {
   js: function js() {
-    return import('./aaa.9b99986c.js');
+    return import('./aaa.8d3b8b49.js');
   },
   css: []
 }, {
   js: function js() {
-    return import('./bbb.973964a1.js');
+    return import('./bbb.7921cb96.js');
   },
   css: []
 }];
