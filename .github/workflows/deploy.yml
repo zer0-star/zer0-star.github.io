@@ -25,5 +25,4 @@ jobs:
     - run: npm ci
     - run: npm test
     - run: npm run export --if-present
-    - name: deploy
-      run: npx gh-pages -d ./__sapper__/export -b dist
+
