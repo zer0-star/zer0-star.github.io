@@ -1,19 +1,19 @@
-describe('Sapper template app', () => {
-	beforeEach(() => {
-		cy.visit('/')
-	});
+describe("test", () => {
+  beforeEach(() => {
+    cy.visit("/");
+  });
 
-	it('has the correct <h1>', () => {
-		cy.contains('h1', 'Great success!')
-	});
+  it("oh", () => {
+    cy.contains("h1", "zer0-star");
+  });
 
-	it('navigates to /about', () => {
-		cy.get('nav a').contains('about').click();
-		cy.url().should('include', '/about');
-	});
+  it("navigates to /aaa", () => {
+    cy.get("nav a").contains("aaa").click();
+    cy.url().should("include", "/aaa");
+  });
 
-	it('navigates to /blog', () => {
-		cy.get('nav a').contains('blog').click();
-		cy.url().should('include', '/blog');
-	});
+  it("navigates to /bbb", () => {
+    cy.get("nav a").contains("bbb").click();
+    cy.url().should("include", "/bbb");
+  });
 });
