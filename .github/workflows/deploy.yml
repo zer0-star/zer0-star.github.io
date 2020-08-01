@@ -1,7 +1,7 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Auto Deploy CI
+name: Auto Build and Deploy CI
 
 on:
   push:
@@ -25,4 +25,10 @@ jobs:
     - run: npm ci
     - run: npm test
     - run: npm run export --if-present
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: dist
+        PUBLISH_DIR: ./__sapper__/export
 
