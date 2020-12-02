@@ -2,4 +2,7 @@
   <title>bbb</title>
 </svelte:head>
 
-<h1>bbb</h1>
+<section>
+  <h2>bbb</h2>
+  <p>Quicksort is average \(O(N \log N)\) but worst \(O(N^2)\)</p>
+</section>

@@ -2,4 +2,6 @@
   <title>aaa</title>
 </svelte:head>
 
-<h1>aaa</h1>
+<section>
+  <h2>aaa</h2>
+</section>
