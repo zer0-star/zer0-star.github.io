@@ -37,7 +37,7 @@
     "sapper": "^0.27.16",
     "sass": "^1.26.10",
     "shell-quote": "^1.7.2",
-    "svelte": "^3.24.0",
+    "svelte": "^3.49.0",
     "svelte-check": "^1.0.3",
     "svelte-material-ui": "^1.0.0-beta.21",
     "svelte-preprocess": "^4.0.9",
